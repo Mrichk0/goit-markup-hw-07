@@ -1,0 +1,106 @@
+.footer {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer__conteiner {
+  display: flex;
+  align-items: baseline;
+}
+.footer__element:first-child {
+  margin-right: 70px;
+}
+.footer__element:nth-child(2) {
+  margin-right: 93px;
+}
+.logo__footer {
+  color: $accent-text-color;
+  margin-bottom: 20px;
+}
+.contact__adress {
+  margin-top: 20px;
+  margin-bottom: 9px;
+  display: inline-block;
+
+  color: $accent-text-color;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contact__auth {
+  margin-bottom: 9px;
+  display: inline-block;
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  &:hover,
+  &:focus {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    color: $accent-color;
+  }
+}
+
+/* --networks-- */
+.footer__title {
+  margin-bottom: 20px;
+
+  color: $accent-text-color;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.networks {
+  margin-right: 93px;
+}
+.networks__group {
+  display: flex;
+}
+.networks__logo:not(:last-child) {
+  margin-right: 10px;
+}
+.networks__icon {
+  fill: $accent-text-color;
+}
+.networks__link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover,
+  &link:focus {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: $accent-color;
+  }
+}
+
+/* -----mailing---- */
+.mailing__group {
+  display: flex;
+  justify-content: center;
+}
+.button--left {
+  margin-left: 10px;
+}
+.mailing__input {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+  padding-left: 16px;
+  color: $accent-text-color;
+}

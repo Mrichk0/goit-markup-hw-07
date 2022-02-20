@@ -1,3 +1,14 @@
-.client-list {
-  display: flex;
-}
+@import "./utils/variables";
+@import "./utils/common";
+@import "./utils/base.scss";
+
+@import "./component/header";
+@import "./component/hero";
+@import "./utils/button";
+@import "./component/feature";
+@import "./component/work";
+@import "./component/team";
+@import "./component/client";
+@import "./component/footer";
+@import "./component/product";
+@import "./component/modal";
